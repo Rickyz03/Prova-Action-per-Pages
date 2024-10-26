@@ -27,6 +27,9 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git pull origin main
 
+      - name: Watch in which directory we are
+        run: pwd
+
       - name: Change to workflows directory
         run: cd Prova-Action-per-Pages/.github/workflows
 
