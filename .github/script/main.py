@@ -50,7 +50,7 @@ PATH_VERBALI_ESTERNI = os.path.join("src", "verbali", "verbali esterni")
 
 # Configurazione di default
 NAME_OUTPUT_DIRECTORY = "output"
-NAME_BASE_DIRECTORY = "Prova_verbali_in_cartella_a_parte"   # Nome directory radice del progetto
+NAME_BASE_DIRECTORY = "Prova-Action-per-Pages"   # Nome directory radice del progetto
 PATH_WEBSITE_DIRECTORY = os.path.join(".github", "script")
 PATH_BASE_DIRECTORY = ""  # Inizializzato in "set_path_base_directory"
 PATH_OUTPUT = ""          # Inizializzato in "set_path_base_directory"
