@@ -27,15 +27,11 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git pull origin main
 
-      - name: Change to workflows directory
-        run: cd .github/workflows
-
       - name: Run main.py script
-        run: python main.py
+        run: python .github/workflows/main.py
 
       - name: Return to root directory and push changes
         run: |
-          cd Prova-Action-per-Pages
           git add .
           git commit -m "Automated update from GitHub Actions"
           git push origin main
